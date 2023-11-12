@@ -1,0 +1,26 @@
+{
+	"autorun": true,
+	"autorun_delay": 2000,
+	"auto_kill": true,
+	"terminals": [
+		{
+			"name": "Nuxt Server Terminal",
+			"description": "",
+			"focus": false,
+			"execute": true,
+			"recycle": true,
+			"commands": ["npm run dev"],
+			"color": "terminal.ansiGreen"
+		},
+
+		{
+			"name": "Nuxt Standalone Terminal",
+			"description": "",
+			"focus": true,
+			"execute": true,
+			"recycle": true,
+			"commands": [],
+			"color": "terminal.ansiRed"
+		}
+	]
+}
